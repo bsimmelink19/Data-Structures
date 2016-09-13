@@ -11,7 +11,7 @@ private:
 	T *array;  // dynamically allocated array
 
 public:
-	MyVec(int size) { // constructor creates array of size ìsizeî
+	MyVec(int size) { // constructor creates array of size ‚Äúsize‚Äù
 		array = new T[size];
 	}
 
@@ -81,7 +81,7 @@ int main()
 	//assigns 24 to every element of the vector
 	for (int i = 0; i < 10; i++)
 	{
-		charVector.push_back(24);
+		charVector.push_back('w');
 	}
 
 	//#22
