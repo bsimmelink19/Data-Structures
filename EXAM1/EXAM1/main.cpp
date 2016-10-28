@@ -35,6 +35,8 @@ namespace Exam1 // NAMESPACE
 			// Complete the implementation
 			_color = color;
 
+			//PT -- better to leave the vector empty. We want to support motorcycles, too.
+			//PT -- -3
 			//creates four wheels with an arbitrary radius of 1
 			Wheel wheel1(1);
 			Wheel wheel2(1);
