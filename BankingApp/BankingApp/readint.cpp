@@ -14,7 +14,7 @@ int read_int(const std::string &prompt, int low, int high)
 {
 	if (low >= high) // invalid range
 		throw std::invalid_argument("invalid range specified");
-
+	
 	std::cin.exceptions(std::ios_base::failbit);
 	int num = 0;
 	while (true) {
